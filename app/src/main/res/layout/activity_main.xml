@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.duweigang.library.MagicButton
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        app:button_end_color="#EEA9B8"
+        app:button_gradient_orientation="LEFT_RIGHT"
+        app:button_is_shadowed="true"
+        app:button_press_end_color="#EEE5DE"
+        app:button_press_start_color="#EEA9B8"
+        app:button_radius="30dp"
+        app:button_shadow_angle="90"
+        app:button_shadow_color="#EE799F"
+        app:button_shadow_distance="5dp"
+        app:button_shadow_radius="10dp"
+        app:button_size="10sp"
+        app:button_start_color="#EEE5DE"
+        app:button_text="Rich Button"
+        app:button_text_color="#9F79EE" />
+
+    <com.duweigang.library.MagicButton
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:button_end_color="#AB82FF"
+        app:button_gradient_orientation="LEFT_RIGHT"
+        app:button_is_shadowed="false"
+        app:button_press_end_color="#EEE5DE"
+        app:button_press_start_color="#EEA9B8"
+        app:button_radius="30dp"
+        app:button_shadow_angle="0"
+        app:button_shadow_color="#AB82FF"
+        app:button_shadow_distance="0dp"
+        app:button_shadow_radius="0dp"
+        app:button_size="10sp"
+        app:button_start_color="#BCD2EE"
+        app:button_text="None Shadow Button"
+        app:button_text_color="#ffffff" />
+
+    <com.duweigang.library.MagicButton
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        app:button_end_color="#AEEEEE"
+        app:button_gradient_orientation="LEFT_RIGHT"
+        app:button_is_shadowed="true"
+        app:button_press_end_color="#EEE5DE"
+        app:button_press_start_color="#EEA9B8"
+        app:button_radius="30dp"
+        app:button_shadow_angle="0"
+        app:button_shadow_color="#AEEEEE"
+        app:button_shadow_distance="0dp"
+        app:button_shadow_radius="5dp"
+        app:button_size="10sp"
+        app:button_start_color="#AEEEEE"
+        app:button_text="Shadow Button of All edge"
+        app:button_text_color="#ffffff" />
+
+    <com.duweigang.library.MagicButton
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        app:button_end_color="#AEEEEE"
+        app:button_gradient_orientation="LEFT_RIGHT"
+        app:button_is_shadowed="true"
+        app:button_press_end_color="#EEE5DE"
+        app:button_press_start_color="#EEA9B8"
+        app:button_radius="0dp"
+        app:button_shadow_angle="0"
+        app:button_shadow_color="#A4D3EE"
+        app:button_shadow_distance="0dp"
+        app:button_shadow_radius="5dp"
+        app:button_size="10sp"
+        app:button_start_color="#AEEEEE"
+        app:button_text="Rect and Shadow"
+        app:button_text_color="#ffffff" />
+
+    <com.duweigang.library.MagicButton
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        app:button_end_color="#AEEEEE"
+        app:button_gradient_orientation="LEFT_RIGHT"
+        app:button_is_shadowed="true"
+        app:button_press_end_color="#EEE5DE"
+        app:button_press_start_color="#EEA9B8"
+        app:button_radius="0dp"
+        app:button_shadow_angle="90"
+        app:button_shadow_color="#B03060"
+        app:button_shadow_distance="5dp"
+        app:button_shadow_radius="5dp"
+        app:button_size="10sp"
+        app:button_start_color="#AEEEEE"
+        app:button_text="Rect and Shadow"
+        app:button_text_color="#ffffff" />
+
+    <com.duweigang.library.MagicButton
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        app:button_end_color="#AEEEEE"
+        app:button_gradient_orientation="LEFT_RIGHT"
+        app:button_is_shadowed="true"
+        app:button_press_end_color="#EEE5DE"
+        app:button_press_start_color="#9370DB"
+        app:button_radius="0dp"
+        app:button_shadow_angle="90"
+        app:button_shadow_color="#B03060"
+        app:button_shadow_distance="5dp"
+        app:button_shadow_radius="5dp"
+        app:button_size="10sp"
+        app:button_start_color="#9370DB"
+        app:button_text="Rect and Shadow"
+        app:button_text_color="#ffffff" />
+
+    <com.duweigang.library.MagicButton
+        android:id="@+id/magic_button"
+        android:layout_width="300dp"
+        android:layout_height="50dp">
+
+    </com.duweigang.library.MagicButton>
+
+</LinearLayout>
