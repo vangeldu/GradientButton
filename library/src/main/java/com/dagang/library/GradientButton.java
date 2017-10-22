@@ -94,19 +94,19 @@ public class GradientButton extends FrameLayout {
         try {
             buttonText = (typedArray.getString(R.styleable.GradientButton_button_text));
             buttonSize = (typedArray.getDimension(R.styleable.GradientButton_button_size, 14));
-            buttonTextColor = (typedArray.getColor(R.styleable.GradientButton_button_text_color, Color.BLACK));
-            buttonStartColor = (typedArray.getColor(R.styleable.GradientButton_button_start_color, Color.BLACK));
-            buttonEndColor = (typedArray.getColor(R.styleable.GradientButton_button_end_color, Color.WHITE));
-            buttonPressStartColor = (typedArray.getColor(R.styleable.GradientButton_button_press_start_color, Color.BLACK));
-            buttonPressEndColor = (typedArray.getColor(R.styleable.GradientButton_button_press_end_color, Color.WHITE));
-            buttonGradientOrientation = (typedArray.getInt(R.styleable.GradientButton_button_gradient_orientation, 0));
-            buttonRadius = ((int) typedArray.getDimension(R.styleable.GradientButton_button_radius, 0));
+            buttonTextColor = (typedArray.getColor(R.styleable.GradientButton_button_text_color, Color.parseColor("#9F79EE")));
+            buttonStartColor = (typedArray.getColor(R.styleable.GradientButton_button_start_color, Color.parseColor("#EEA9B8")));
+            buttonEndColor = (typedArray.getColor(R.styleable.GradientButton_button_end_color, Color.parseColor("#EE799F")));
+            buttonPressStartColor = (typedArray.getColor(R.styleable.GradientButton_button_press_start_color, Color.parseColor("#EEA9B8")));
+            buttonPressEndColor = (typedArray.getColor(R.styleable.GradientButton_button_press_end_color, Color.parseColor("#EE799F")));
+            buttonGradientOrientation = (typedArray.getInt(R.styleable.GradientButton_button_gradient_orientation, 6));
+            buttonRadius = ((int) typedArray.getDimension(R.styleable.GradientButton_button_radius, 10));
 
             this.setIsShadowed(typedArray.getBoolean(R.styleable.GradientButton_button_is_shadowed, true));
-            this.setShadowRadius(typedArray.getDimension(R.styleable.GradientButton_button_shadow_radius, 30.0F));
-            this.setShadowDistance(typedArray.getDimension(R.styleable.GradientButton_button_shadow_distance, 15.0F));
+            this.setShadowRadius(typedArray.getDimension(R.styleable.GradientButton_button_shadow_radius, 6.0F));
+            this.setShadowDistance(typedArray.getDimension(R.styleable.GradientButton_button_shadow_distance, 6.0F));
             this.setShadowAngle((float) typedArray.getInteger(R.styleable.GradientButton_button_shadow_angle, 45));
-            this.setShadowColor(typedArray.getColor(R.styleable.GradientButton_button_shadow_color, Color.BLACK));
+            this.setShadowColor(typedArray.getColor(R.styleable.GradientButton_button_shadow_color, Color.parseColor("#EEA9B8")));
         } finally {
             typedArray.recycle();
         }

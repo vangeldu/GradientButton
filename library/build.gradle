@@ -28,6 +28,6 @@ publish {
     userOrg = 'dagangxx'
     groupId = 'com.dagang'
     artifactId = 'gradient-button'
-    publishVersion = '1.0.0'
+    publishVersion = '1.0.1'
     website = 'https://github.com/duweigang/GradientButton'
 }
