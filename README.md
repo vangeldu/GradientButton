@@ -13,7 +13,7 @@ In your `build.gradle:`
 
 ```java
 dependencies {
-	compile 'com.dagang:gradient-button:1.0.0'
+	compile 'com.dagang:gradient-button:1.0.1'
 }
 ```
 
